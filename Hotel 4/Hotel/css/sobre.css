@@ -1,0 +1,121 @@
+body {
+    line-height: 1.6;
+    background-color: #242424;
+    color: #ffffff;
+}
+
+.navbar {
+    background-color: #441b0e8c !important;
+}
+
+.navbar .nav-link {
+    color: #fff !important;
+    font-weight: 500;
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+
+.navbar .nav-link:hover {
+    color: #f0f0f0 !important; /* efeito ao passar o mouse */
+    background-color: rgba(255, 255, 255, 0.1); /* leve destaque */
+}
+
+.navbar .navbar-brand svg {
+    fill: #fff;
+}
+
+.navbar .nav-item {
+    margin: 0 10px;
+}
+
+/* Seção "Sobre Nós" */
+h1 {
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.lead {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+section.container {
+    padding: 50px 0;
+}
+
+/* Estilo para imagem do chalé */
+img.img-fluid {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-height: 400px;
+}
+
+/* Missão, Visão e Valores */
+h3 {
+    font-size: 24px;
+    color: #fdfeff;
+    margin-bottom: 15px;
+}
+
+p, ul {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 8px;
+    position: relative;
+    padding-left: 25px;
+}
+
+ul li:before {
+    content: '\2022'; /* Bullet personalizado */
+    color: #ffffff !important; /* Cor do bullet */
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    top: -2px;
+}
+
+
+footer {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: black; /* Cor preta para o texto do rodapé */
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    .lead {
+        font-size: 16px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    ul li {
+        font-size: 14px;
+    }
+}
+.btn-outline-success {
+    background-color: #996640 !important; /* Define a cor de fundo para o botão Search */
+    color: white !important; /* Muda a cor do texto para branco */
+    border-color: #996640 !important; /* Muda a cor da borda para a mesma cor */
+    box-shadow: none !important; /* Remove a sombra */
+}
+

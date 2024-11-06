@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/chalé.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    background-color: #441b0e8c !important;
+}
+
+.navbar .nav-link {
+    color: #ffffff !important; 
+}
+
+.reserva {
+    border-radius: 4px;
+    background-color: #996640;
+    box-shadow: none !important; 
+    border: none;}
+
+.reserva:focus, .reserva:hover {
+    box-shadow: none !important; 
+    background-color: #4d2b11;
+}
+.btn-outline-success {
+    background-color: #996640 !important; /* Define a cor de fundo para o botão Search */
+    color: white !important; /* Muda a cor do texto para branco */
+    border-color: #996640 !important; /* Muda a cor da borda para a mesma cor */
+    box-shadow: none !important; /* Remove a sombra */
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+    height: 100vh;           /* Ocupa toda a altura da tela */
+  }
+
+  img {
+    max-width: 100%;
+    width: 350px;
+    height: auto;  /* Mantém a proporção da imagem */
+  }
+
+  footer {
+    background-color: #6c757d;
+    color: #ffffff;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: black;
+}
